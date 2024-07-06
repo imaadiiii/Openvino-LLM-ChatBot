@@ -70,9 +70,6 @@ def prepare_model(model_vendor, model_id, group_size:int, ratio:float, int4_mode
 
 print('*** LLM model downloader')
 
-# Databricks/dolly-v2-3b
-prepare_model('databricks', 'dolly-v2-3b', group_size=128, ratio=0.8)
-
 # Intel/neural-chat-7b
 prepare_model('Intel', 'neural-chat-7b-v3-1', group_size=64, ratio=0.6)
 
