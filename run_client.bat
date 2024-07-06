@@ -1,1 +1,1 @@
-streamlit run openvino-rag-client.py
+streamlit run openvino-client.py
