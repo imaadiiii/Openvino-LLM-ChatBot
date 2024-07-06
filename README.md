@@ -29,7 +29,7 @@ neural-chat-7b OR llama2-7b
 Access API on huggingface website
 Run the Script:
 ```
-python llm-model-downloader.py
+python llm-2model-download.py
 ```
 5.Run the server:
 ```
@@ -44,7 +44,7 @@ streamlit run openvino-client.py
 
 |#|Program/File|Description|
 |---|---|---|
-|1|`llm-model-downloader.py`|Download intel/neural-chat-7b and meta-llama/llama2-7b-chat models, and convert them into OpenVINO IR models.|
+|1|`llm-2model-download.py`|Download intel/neural-chat-7b and meta-llama/llama2-7b-chat models, and convert them into OpenVINO IR models.|
 |2|`openvino-doc-specific-extractor.py`|Convert OpenVINO HTML documents into vector store (DB)|
 |3|`openvino-server.py`|OpenVINO Q&A server|
 |4|`openvino-client.py`|OpenVION Q&A client|
