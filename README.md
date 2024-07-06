@@ -33,11 +33,11 @@ python llm-model-downloader.py
 ```
 5.Run the server:
 ```
-uvicorn openvino-rag-server:app --host 0.0.0.0
+uvicorn openvino-server:app --host 0.0.0.0
 ```
 6. Run the client:
 ```
-streamlit run openvino-rag-client.py
+streamlit run openvino-client.py
 ```
 
 ## Programs / Files
@@ -51,6 +51,3 @@ streamlit run openvino-rag-client.py
 |5|`.env`|Configurations file|
 |6|`requirements.txt`|Python module requirements file|
 |7|`huggingface_login.py`|Login to HuggingFace hub.|
-
-
-
