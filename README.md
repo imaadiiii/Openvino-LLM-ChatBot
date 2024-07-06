@@ -5,6 +5,8 @@ Running GenAI on Intel AI Laptops with Simple LLM Inference on CPU and Fine-Tuni
 
 This program doesn't rely on any cloud services or webAPIs for inferencing. The program downloads all the data, including reference documents and DL models, and **can perform inference offline**. You don't need any cloud services once you prepare the data locally. 
 
+![pic1](./resources//neural-chat-7b-v3.png)
+
 ## How To Run:
 1. Create Virtual Environment:
 ```
@@ -51,6 +53,7 @@ streamlit run openvino-client.py
 |5|`.env`|Configurations file|
 |6|`requirements.txt`|Python module requirements file|
 |7|`huggingface_login.py`|Login to HuggingFace hub.|
+
 
 ## Examples
 ![pic1](./resources//ss.png)
