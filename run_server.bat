@@ -1,1 +1,1 @@
-uvicorn openvino-rag-server:app --host 0.0.0.0 --port 8000
+uvicorn openvino-server:app --host 0.0.0.0 --port 8000
