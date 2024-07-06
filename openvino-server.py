@@ -1,4 +1,4 @@
-# openvino-rag-server.py
+
 
 import os
 import time
@@ -45,12 +45,7 @@ embeddings = HuggingFaceEmbeddings(
 vectorstore_dir = f'{vectorstore_dir}_{vector_db_postfix}'
 vectorstore = Chroma(persist_directory=vectorstore_dir, embedding_function=embeddings)
 retriever = vectorstore.as_retriever()
-#    search_type='similarity_score_threshold', 
-#    search_kwargs={
-#        'score_threshold' : 0.8, 
-#        'k' : 4
-#    }
-#)
+
 print(f'** Vector store : {vectorstore_dir}')
 
 model_id = f'{model_vendor}/{model_name}'
