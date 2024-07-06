@@ -35,5 +35,4 @@ if prompt:
         st.markdown(ans['response'])
         st.session_state.messages.append({'role':'assistant', 'content':ans['response']})
 
-# How to run (You need to have streamlit -> pip install streamlit)
-# streamlit run openvino-rag-client.py
+
