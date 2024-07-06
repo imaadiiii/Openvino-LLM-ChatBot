@@ -21,10 +21,6 @@ from transformers import AutoModel
 model = AutoModel.from_pretrained(embeddings_model, trust_remote_code=True) 
 
 
-##
-## Read HTML documents and extract main section
-## Note: Designed dedicated for OpenVINO web documents
-##
 def generate_documents_from_html(glob_pattern:str, max_doc_count:int=-1) -> list[Document]:
     doc_count = 0
 
@@ -107,5 +103,3 @@ else:
 print('*** Converting documents into embeddings and creating a vector store(s)')
 generate_vectorstore_from_documents(docs, vectorstore_dir,  300,   0, True, embeddings_model)
 generate_vectorstore_from_documents(docs, vectorstore_dir,  500,   0, True, embeddings_model)
-generate_vectorstore_from_documents(docs, vectorstore_dir,  500, 100, True, embeddings_model)
-generate_vectorstore_from_documents(docs, vectorstore_dir, 1000, 100, True, embeddings_model)
