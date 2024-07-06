@@ -1,5 +1,3 @@
-
-
 import os
 import time
 from dotenv import load_dotenv
@@ -81,8 +79,3 @@ async def root(item_id:int, query:str=None):
     return {'response':''}
 
 
-# API reference
-# http://127.0.0.1:8000/docs
-
-# How to run (You need to have uvicorn and streamlit -> pip install uvicorn streamlit)
-# uvicorn openvino-rag-server:app
