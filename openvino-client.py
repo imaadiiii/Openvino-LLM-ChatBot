@@ -11,7 +11,7 @@ load_dotenv(verbose=True)
 server_url  = os.environ['SERVER_URL']
 server_port = os.environ['SERVER_PORT']
 
-st.title('OpenVINO Chatbot by Siddhant Saini')
+st.title('OpenVINO Chatbot by Aditya Raj')
 st.markdown(f'QA Server: {server_url}:{server_port}')
 
 if 'messages' not in st.session_state:
