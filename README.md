@@ -62,7 +62,7 @@ streamlit run openvino-client.py
 | 7 | `huggingface_login.py`        | Script to login to Hugging Face hub.                                |
 
 ## Example
-![pic1](./resources/output.jpeg)
+![pic1](./resources/Output.jpeg)
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue for any bugs, improvements, or suggestions.
