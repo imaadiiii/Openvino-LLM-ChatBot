@@ -1,7 +1,3 @@
-Here's a more detailed README file for your GitHub repository:
-
----
-
 # OpenVino_Chatbot
 
 ## Overview
@@ -81,6 +77,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For more information, visit the [OpenVINO official website](https://docs.openvino.ai/latest/index.html).
 
----
-
-Feel free to modify or add any additional details as per your requirements.
